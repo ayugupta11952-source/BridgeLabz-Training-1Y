@@ -1,12 +1,13 @@
-import java.util.Scanner;
-class add{
-public static void main()
-{
-Scanner sc = new Scanner(System.in);
-int a,b,c;
-System.out.println("enter 2 no.");
-a = sc.nextInt();
-b = sc.nextInt();
-c = a+b;
-System.out.println("c="+c);}
+import java.util.*;
+public class Add{
+    public static void main(String args[]){
+		Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER A NUMBER:");
+        double x=sc.nextDouble();
+        System.out.println("ENTER A NUMBER:");
+        double y=sc.nextDouble();
+        System.out.println("SUM OF THE GIVEN NUMBERS="+(x+y));
+	}
 }
+
+
